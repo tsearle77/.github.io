@@ -1,20 +1,215 @@
-#nav {
-    background-color: blue;
-    font-size: 16px; 
-    line-height: 32px;
-    font-family: Ubuntu;
-    color: white;
-} 
-
-#Preston {
-    width: 600px; 
-    height: 600px;
-}
-
-#heroImage1 { 
+nav {
+    background-color: beige; 
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-right: -5px;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #775253;
+    padding: 1em .6em;
+  }
+  
+  nav a:hover{
+    size: 120%;
+    text-decoration: none;
+  }
+  
+  #middle-row { 
+    background-color: #d1d3c4;
+    padding: 15px;
+  } 
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #772523;
+  } 
+  
+  .middle-row-paragraph {
+    color: #351431;
+    padding: 15px;
+  }
+  
+  #content {
+    width: 960px; 
+    margin : 0 auto;
+    padding: 60px;
+    font-family: "Times New Roman", serif, sans-serif; 
+  } 
+  
+  #bottom-row {
+    text-align: center; 
+  }
+  
+  body {
+    font-family: "Times New Roman", serif, sans-serif;
+  }
+  
+  h1 {
+    line-height: 50%;
+    margin: 10px;
+  }
+  
+  h2 {
+    line-height: 50%;
+    margin: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .leftcol { 
     width: 48%;
     float: left;
     margin-right: 15px;
     flex: 2 0 15em;
     margin: .5em;
+  }
+  
+  .rightcol {
+    width: 48%;
+    float: right; 
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    flex: 1 0 15em;
+    margin: .5em;
+  }
+    
+  #top-row {
+    border: 2px solid; 
+    margin-bottom: 5px;
+  }
+  
+  #spanone {
+    padding-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #fullwidth {
+    width: 100%;
+  }
+  
+  #top-row, #middle-row { 
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .riverpic {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 200px;
+  }
+  
+  .wont-work {
+    margin-left: 325px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+  
+  .footer {
+    float: right;
+  }
+  
+  nav or {
+    display: flex;
+    flex-flow: row;
+    align-content: space-between;
+    margin-top: -50px; 
+    padding-left: 135px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  #logo {
+    background-color: white;
+    width: 110px;
+  }
+  
+  a:hover {
+    color: green;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:unvisited {
+    color: blue;
+  }
+  
+  #mainfork {
+    width: 1000px;
+    height:500px;
+    border: solid gray 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    overflow: scroll; 
+    background-color: #d1d3c4;
+  }
+  
+  #RiversWeRun {
+    font-size: 1.4em; 
+    color:blue;
+  }
+  
+  #grandcanyon {
+    width: 1000px; 
+    height: 500px;
+    border: solid gray 5px; 
+    overflow: scroll;
+    background-color: #d1d3c4;
+  }
+  
+  #desolation {
+    height:500px;
+    overflow: scroll;
+    background-color: #d1d3c4;
+    width: 1000px;
+  }
+  
+  #GC3NT {
+      width: 700px;
+      padding: 35px 0;
+      border: 3px solid green;
+      float: right;
+      text-align: center;
+  }
+  
+  #GC6NT {
+      width: 700px;
+      padding: 35px 0;
+      border: 3px solid green;
+      float: left;
+      text-align: center;
+  }
+  
+  #SR5NT {
+      width: 700px;
+      padding: 35px 0;
+      border: 3px solid green;
+      float: right;
+      text-align: center;
+  }
+  
+  #DC6NT {
+      width: 700px;
+      padding: 35px 0;
+      border: 3px solid green;
+      float: left;
+      text-align: center;
+  }
+  
+  .footer1 {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer2 {
+    margin-left:650px;
+   
   }
